@@ -1,7 +1,7 @@
 {
-  "name": "worldwide-routing",
+  "name": "react-routing",
   "version": "0.2.0",
-  "description": "Using React Router to navigate the globe",
+  "description": "React-Router-Testing",
   "repository": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en",
   "main": "server/index.js",
   "scripts": {
