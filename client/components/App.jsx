@@ -4,7 +4,9 @@ import { Route, Switch } from 'react-router-dom'
 
 import About from './About'
 import Nav from './Nav'
-import Shop from './Shop'
+import Weather from './Weather'
+import Footer from './Footer'
+import WeekDayWeather from './WeekDayWeather'
 
 function App () {
   return (
@@ -13,8 +15,10 @@ function App () {
         <Nav />
         <Switch>
           <Route exact path="/about" component={About}/>
-          <Shop exact path="/shop" component={Shop} />
+          <Route exact path="/weather" component={Weather} />
+          <Route exact path="/weather/:week" componenet={WeekDayWeather} />
         </Switch>
+        <Footer />
       </div>
     </>
   )

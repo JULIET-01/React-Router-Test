@@ -19,6 +19,15 @@ nav{
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  
+
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(100, 124, 133);
+  color: white;
+  text-align: center;
 

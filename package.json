@@ -2,7 +2,7 @@
   "name": "worldwide-routing",
   "version": "0.2.0",
   "description": "Using React Router to navigate the globe",
-  "repository": "https://github.com/dev-academy-challenges/worldwide-routing.git",
+  "repository": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en",
   "main": "server/index.js",
   "scripts": {
     "start": "run-p webpack server",
