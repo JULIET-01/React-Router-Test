@@ -1,12 +1,21 @@
 import React from 'react'
 
-import Fruit from './Fruit'
+import { Route, Switch } from 'react-router-dom'
 
-const App = () => {
+import About from './About'
+import Nav from './Nav'
+import Shop from './Shop'
+
+function App () {
   return (
     <>
-      <h1>Hola! Fruit time!</h1>
-      <Fruit />
+      <div className="App">
+        <Nav />
+        <Switch>
+          <Route exact path="/about" component={About}/>
+          <Shop exact path="/shop" component={Shop} />
+        </Switch>
+      </div>
     </>
   )
 }
